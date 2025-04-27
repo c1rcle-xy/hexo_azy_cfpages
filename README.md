@@ -1,9 +1,10 @@
 ## 部署到cloudflare pages
 
-基本流程如下：
+流程如下：
 - Fork本项目(导入也可)
 - cloudflare中新建一个pages
-- 链接github-刚刚fork的项目
+- 连接GitHub
+- 选择刚刚fork的项目
 - 构建命令填 <u>npm run build</u>
 - 构建输出填 <u>public</u>
 - 根目录留空
@@ -13,7 +14,7 @@
 ## 设置博客
 
 - `_config.yml`文件：设置博客的基本信息，如网站名称、作者等
-- `_config.solitude.yml`文件：主题配置文件，参照[安知鱼主题官方文档](https://docs.anheyu.com/global/base.html)进行配置
+- `_config.anzhiyu.yml`文件：主题配置文件，参照[安知鱼主题官方文档](https://docs.anheyu.com/global/base.html)进行配置
 
 ## 如何发布博文
  
